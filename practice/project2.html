@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+      <head>
+	        <title>AllowParty</title>
+			<style>
+			   td input,select
+			   {
+			   width:100%;
+			   box-sizing:border-box;
+			   }
+			   </style>
+
+	  </head>
+	  <center><body style="background-color:#FFFF99">
+	        <h1 style="color:brown"><u>🎶Party Entrence registration form🎶</u></h1>
+			<form>
+			<table border="1" cellpadding="10"  style="border-collapse:collapse; text-align=center; background-color:lightgray;">
+			       <tr>
+				       <th>Name:</th>
+					   <td>
+					   <input type="text" name="name" required />
+				   </tr>
+			       <tr>
+				       <th>DOB</th>
+					   <td>
+					   <input type="date" name="DOB" max="2006-01-01" min="1995-01-01" required />
+				   </tr>
+				   <tr>
+				       <th>prefer meeting date</th>
+					   <td>
+					   <select required for="date">
+					   <option>select</option>
+					   <option name="prefer meeting date" value="2/1/2026" id="date">2/1/2026</option>
+					   <option name="prefer meeting date" value="3/1/2026" id="date">3/1/2026</option>
+					   <option name="prefer meeting date" value="4/1/2026" id="date">4/1/2026</option>
+					   </select>
+				   </tr>
+				   <tr>
+				       <th>prefer meeting time</th>
+					   <td>
+					   <select required for="time">
+					   <option > select</option>
+					   <option name="prefer meeting time" value="2:00PM-6:00PM" id="time">2:00PM-6:00PM</option>
+					   <option name="prefer meeting time" value="6:00PM-10:00PM" id="time">6:00PM-10:00PM</option>
+					   <option name="prefer meeting time" value="10:00PM-2:00AM" id="time">10:00PM-2:00AM</option>
+					   </select>
+				   </tr>
+				   <tr>
+				       <th>Age:</th>
+					   <td>
+					   <input type="number" min="18" max="30" required />
+					   </td>
+				   </tr>
+				   <tr>
+				       <td colspan="2"  align=center>
+					        <input type="submit" value="register" style="color:red; background-color:orange;"/>
+					   </td>
+				   </tr>
+				   
+			</table>
+			</form>
+	  </body></center>
+</html>

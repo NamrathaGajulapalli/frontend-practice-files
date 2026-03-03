@@ -1,0 +1,39 @@
+.main1,.main2,.main3{
+	height:300px;
+	width:800px;
+	border:1px;
+}
+.b1,.b2,.b3,.b4{
+	height:300px;
+	width:450px;
+	border:5px solid black;
+	box-sizing:border-box;
+	overflow:auto;
+	border-radius:50%;
+	
+}
+.b1{
+	float:left;
+	border-style:dotted;
+	border-color:white;
+	padding:20px;
+	background-color:black;
+	color:white;	
+}
+img{
+	height:150px;
+	width:330px;
+}
+.b2{
+	float:right;
+	border-image:url(border2.jpeg) 30 round;
+	background-size:cover;
+
+	
+}
+.b3{
+	float:left;
+}
+.b4{
+	float:right;
+}

@@ -1,0 +1,15 @@
+input[required]{
+	color:green
+}
+input[type="number"]{
+	color:violet;
+}
+input[type="email"]{
+	color:red;
+}
+input[type="text"]{
+	color:brown;
+}
+input[type="Number"]{
+	color:orange;
+}

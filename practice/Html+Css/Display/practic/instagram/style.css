@@ -1,0 +1,21 @@
+.main{
+    height:600px;
+    width:1200px;
+    border:1px solid black;
+}
+.topview,.feed{
+	 border:1px solid black;
+}
+.sideview{
+    height:600px;
+    width:400px;
+    border:1px solid black;
+}
+
+.logo{
+    height:100px;
+    width: 120px;
+}
+.insta{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

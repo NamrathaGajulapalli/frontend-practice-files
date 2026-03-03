@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+</body>
+     <head>
+        <meta charset="UTF-8"/>
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Animations in css</title>
+		<style>
+		    .container{
+			     display:grid;
+				 grid-template-column:200px 100px;
+				 gap:20px;
+			}
+			.transforms{
+			     position:relative;
+				 margin:0 2em 4em 5em;/*top,left,right,bottom*/
+			}
+			.box{
+			    display:inline-block;
+				width:3em;
+				height:3em;
+				border:1px solid black;
+				background-color:skyblue;
+			}
+			.original{
+			    position:absolute;
+				left:0;
+				opacity:20%;/*transparency/intencity*/
+			}
+		   .box1{
+		      transform:none;
+		   }
+		   .box2{
+		      transform:rotate(45deg);
+		   }
+		   .box3{
+		       Transform:rotate(30deg);
+			   transform-origin:0 0;
+		   }
+		   .box4{
+		        Transform:rotate(30deg);
+			    transform-origin:100% 100%;
+		   }
+		   .box5{
+		        Transform:rotate(30deg);
+				transform-origin:-1em-1em;
+		   }
+		   .box6{
+		        transform:scale(1.7);
+		   }
+		   .box7{
+		        transform:scale(1.7);
+				transform-origin:100% -30%;
+				}
+		   .box8{
+		    transform:scale(1.7);
+				transform-origin:100% -30%;
+		   }
+		   .box9{
+		   transform:skew(50deg);
+				transform-origin:100% -30%
+		   }
+		   .box10{
+		    transform:skewY(50deg);
+				transform-origin:100% -30%;
+		   }
+		</style>
+     </head>
+	 <body>
+	     <div class="container">
+	       <div class="transforms">
+		   <div class="box box1">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        Transform:none;
+		   </pre>
+		   <div class="transforms">
+		   <div class="box box2">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        Transform:rotate(45deg);
+		   </pre>
+		   <div class="transforms">
+		   <div class="box box3">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		         Transform:rotate(30deg);
+				 transform-origin:0 0;
+		   </pre>
+		   <div class="transforms">
+		   <div class="box box4">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		         Transform:rotate(30deg);
+				 transform-origin:0 0;
+		   </pre>
+		   <div class="transforms">
+		   <div class="box box5">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        Transform:rotate(30deg);
+				transform-origin:-1em-1em;
+		   </pre>
+		   <div class="transforms">
+		   <div class="box box6">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        transform:scale(1.7);
+		   </pre>
+           <div class="transforms">
+		   <div class="box box7">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        transform:scale(1.7);
+				transform-origin:100% -30%;
+		   </pre>
+           <div class="transforms">
+		   <div class="box box8">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        transform:scale(1.7);
+				transform-origin:100% -30%;
+		   </pre>	
+           <div class="transforms">
+		   <div class="box box9">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        transform:skew(50deg);
+				transform-origin:100% -30%;
+		   </pre>
+           <div class="transforms">
+		   <div class="box box10">&nbsp;</div>
+		   <div class="box original">&nbsp;</div>
+		   </div>
+		   <pre>
+		        transform:skewY(50deg);
+				transform-origin:100% -30%;
+		   </pre>		   
+		</div>   
+	 </body>
+</html>	 
+	 

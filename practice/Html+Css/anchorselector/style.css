@@ -1,0 +1,61 @@
+a[href*="flipkart"]{
+	color:red;
+}
+code{
+	margin-left:100px;
+}
+dt{
+	color:blue;
+	font-weight:bold;
+}
+p{
+	color:red;
+}
+a[href^="http"]{
+	color:green;
+}
+}
+a[href^=".com"]{
+	color:brown;
+}
+.firstchild li:first-child{
+	color:green;
+}
+.nthchild li:nth-child(2){
+	color:blue;
+}
+.nthchild li:nth-child(3){
+	color:red;
+}
+.evenorodd li:nth-child(even){
+	color:brown;
+}
+.evenorodd li:nth-child(odd){
+	color:yellow;
+}
+.marker li::marker{
+	color:orange;
+}
+.after li::after{
+	content:"-";
+}
+.before li::before{
+	content:"@";
+	color:red;
+}
+.first-letter::first-letter{
+	font-size:30px;
+	color:blue;
+}
+.firstl p::first-letter{
+	font-size:30px;
+	color:blue;
+}
+.z::first-letter{
+	font-size:30px;
+	color:blue;
+}
+.fl::first-line{
+	font-weight:bold;
+	color:green;
+}

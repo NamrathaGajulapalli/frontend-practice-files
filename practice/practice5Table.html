@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <title>Table
+         </title>
+		 <meta= charset="UTF=8">
+		 <meta=name="viewport" content="width=device-width, initial-scale=1.0">
+
+      </head>
+      <body>
+	  <table border="1" cellpadding:"10px" style="width:50%;text-align:center;border-collapse:collapse; background-color:yellow">
+	  <caption>details of students</caption>
+	  <tr style="background-color:brown">
+		  <th>sno.</th>
+		  <th>Name</th>
+		  <th>branch</th>
+		  <th>sub</th>
+		  <th>lab internal</th>
+		  <th>lab external</th>
+		  <th>pass/fail</th>
+		  
+	  </tr>
+	  <tr>
+		  <td>1</td>
+		  <td>namratha</td>
+		  <td>ds</td>
+		  <td rowspan="5" style="text-align:center">eng</td>
+		  <td>25</td>
+		  <td>75</td>
+		  <td>pass</td>
+	  </tr>
+	  <tr>
+		  <td>2</td>
+		  <td>kavya</td>
+		  <td>cse</td>
+		  <td>20</td>
+		  <td>70</td>
+		  <td>pass</td>
+	  </tr>
+	  <tr>
+		  <td>3</td>
+		  <td>mohan</td>
+		  <td>ece</td>
+		  <td>25</td>
+		  <td>70</td>
+		  <td>pass</td>
+	  </tr>
+	  <tr>
+		  <td>4</td>
+		  <td>anisha</td>
+		  <td>ai</td>
+		  <td>10</td>
+		  <td>30</td>
+		  <td>fail</td>
+	  </tr>
+	  <tr>
+		  <td>6</td>
+		  <td>haritha</td>
+		  <td>ece</td>
+          <td colspan="3" style="text-align:center">absent</td>
+	  </tr>
+	  </table>
+	  
+	  
+	  
+	   <table border="1" cellpadding:"10px" style="border-collapse:collapse;text-align:right;background:pink;width:100%">
+	  <caption>details of students2</caption>
+	  <tr style="background-color:brown">
+	  <th>sno.</th>
+	  <th>Name</th>
+	  <th>roll no.</th>
+	  <th>branch</th>
+	  <th>mail</th>
+	  </tr>
+	  <tr>
+	  <td>1</td>
+	  <td>namratha</td>
+	  <td>8807</td>
+	  <!--<td>ds</td>-->
+	  <td rowspan="2" style="text-align=center">ds,cse</td>
+	  <td>g.namratha@gmail.com</td>
+	  </tr>
+	  <tr>
+	  <td>2</td>
+	  <td>kavya</td>
+	  <td>1406</td>
+	  <!--<td>cse</td>-->
+	  <td>kavya@gmail.com</td>
+	  </tr>
+	  <tr>
+	  <td>3</td>
+	  <!--<td>mohan</td>-->
+	  <td colspan="2" style="text-align:center">mohan 3456</td>
+	  <!--<td>3456</td>-->
+	  <td>ece</td>
+	  <td>mohan@gmailcom></td>
+	  </tr>
+	  </table>
+	  
+	  <table border="2" cellpadding="10px"style="background-color:lightgreen;border-collapse:collapse;text-align:center;width:60%">
+	  <caption>my results</caption>
+	  <tr style="background-color:green;">
+	  <th>s.no</th>
+	  <th>Name</th>
+	  <th>branch</th>
+	  <th>sub</th>
+	  <th>internal</th>
+	  <th>extarnal</th>
+	  <th>pass/fail</th>
+	  </tr>
+	  <tr>
+	  <td>1</td>
+	  <td rowspan="5" style="text-align:center">namratha</td>
+	  <td rowspan="5" style="text-align:center">ds</td>
+	  <td>ml</td>
+	  <td>24</td>
+	  <td>73</td>
+	  <td rowspan="2" style="text-align:center">pass</td>
+	  </tr>
+	  <tr>
+	  <td>2</td>
+	  <td>ds</td>
+	  <td>22</td>
+	  <td>72</td>
+	  </tr>
+	  <tr>
+	  <td>3</td>
+	  <td>de</td>
+	  <td>10</td>
+	  <td>30</td>
+	  <td>fail</td>
+	  </tr>
+	  <tr>
+	  <td>4</td>
+	  <td>dl</td>
+	  <td>21</td>
+	  <td>69</td>
+	  <td rowspan="2" style="text-align:center">pass</td>
+	  </tr>
+	  <tr>
+	  <td>5</td>
+	  <td>ms</td>
+	  <td>18</td>
+	  <td>59</td>
+	  </tr>
+	  </table>
+	  
+	  <table border='2' cellpadding:"20" style="border-collapse:collapse; text-align:center; background-color:lightgray">
+	  <caption>nested table</caption>
+	  <tr style="color:red">
+	  <th>family1</th>
+	  <th>family2</th>
+	  <th>family3</th>
+	  </tr>
+	  <tr>
+	  <td>
+	  <table border='2' style="border-collapse:collapse; background-color:lightpink ">
+	  <tr style="color:darkorange">
+	      <th>name</th>
+	      <th>age</th>
+	      <th>height</th>
+	  </tr>
+	  <tr>
+	  <td>nam</td>
+	  <td>20</td>
+	  <td>5.2</td>
+	  </tr>
+	  <tr>
+	  <td>kav</td>
+	  <td>17</td>
+	  <td>5.3</td>
+	  </tr>
+	  <tr>
+	  <td>sunny</td>
+	  <td>16</td>
+	  <td>5.8</td>
+	  </tr>
+	  </table>
+	  </td>
+	  <td>
+	  <table border='2' style="border-collapse:collapse;background-color:lightgreen">
+	  <tr style="color:brown">
+	      <th>name</th>
+	      <th>age</th>
+	      <th>height</th>
+	  </tr>
+	  <tr>
+	  <td>raghu</td>
+	  <td>9</td>
+	  <td>3.5</td>
+	  </tr>
+	  <tr>
+	  <td>ram</td>
+	  <td>23</td>
+	  <td>5.7</td>
+	  </tr>
+	  <tr>
+	  <td>lux</td>
+	  <td>25</td>
+	  <td>5.4</td>
+	  </tr>
+	  </table>
+	  </td>
+	  <td>
+	  <table border='2' style="border-collapse:collapse;background-color:lightblue">
+	  <tr style="color:blue">
+	      <th>name</th>
+	      <th>age</th>
+	      <th>height</th>
+	  </tr>
+	  <tr>
+	  <td>hari</td>
+	  <td>21</td>
+	  <td>5.4</td>
+	  </tr>
+	  <tr>
+	  <td>ram</td>
+	  <td>19</td>
+	  <td>5.5</td>
+	  </tr>
+	  <tr>
+	  <td>lasya</td>
+	  <td>12</td>
+	  <td>4.7</td>
+	  </tr>
+	  </table>
+	  </td>
+	  </tr>
+	  </table>
+
+      </body>
+</html>

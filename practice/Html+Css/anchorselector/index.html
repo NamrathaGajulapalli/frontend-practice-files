@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8"/>
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+     <title></title>
+	 <link rel="stylesheet" href="style.css"/>
+   </head>
+   <body>
+         <h2>Topic about the attributr selector with Contains Specified value</h2>
+		 <hr>
+         <dl>
+		 <dt>Attribute Value contains selectors([attribute*="value"]):</dt>
+		 <dd>Selects element whose attribute value contains the specified value.</dd>
+		 </dl>
+		 <span>Example:</span>
+		 <pre>
+		       &lt;a href=""&gt;Click me &lt;/a&gt;
+		 </pre>
+		 <div>
+		 <span> Syntax:</span>
+		 <code>a[href*="google"]{color:red;}</code>
+		 </div>
+		 <a href="https://www.flipkart.com/"> see me</a>
+		 <p>Note:*:-Contains</p>
+		 <hr>
+         <dl>
+		 <dt>Attribute Value contains selectors([attribute^="protocol"]):</dt>
+		 <dd>Selects element whose attribute value contains the specified protocols like http,https.</dd>
+		 </dl>
+		 <span>Example:</span>
+		 <pre>
+		       &lt;a href=""&gt;Click me &lt;/a&gt;
+		 </pre>
+		 <div>
+		 <span> Syntax:</span>
+		 <code>a[href^="https"]{color:red;}</code>
+		 </div>
+		 <a href="http://web.simmons.edu/~grovesd/comm244/notes/week2/links"> see me</a>
+		 <p>Note:^:-Starts with</p>
+		 <hr>
+         <dl>
+		 <dt>Attribute Value contains selectors([attribute$="Domain Name"]):</dt>
+		 <dd>Selects element whose attribute value contains the specified Domain Name like .com,.org,.net.</dd>
+		 </dl>
+		 <span>Example:</span>
+		 <pre>
+		       &lt;a href=""&gt;Click me &lt;/a&gt;
+		 </pre>
+		 <div>
+		 <span> Syntax:</span>
+		 <code>a[href$=".com"]{color:red;}</code>
+		 </div>
+		 <a href="https://www.flipkart.com/"> see me</a>
+		 <p>Note:$:-Starts with</p>
+		 <hr><hr>
+		 <h2> Struture(position-based)Pseudo-Class</h2>
+		 <h3>first child</h3>
+		 <ul class="firstchild">
+		     <li> First child</li>
+			 <li> second child</li>
+			 <li> third child</li>
+			 <li> fourth child</li>
+		 </ul>
+		 <h3>nth child</h3>
+		 <ul class="nthchild">
+		     <li> First child</li>
+			 <li> second child</li>
+			 <li> third child</li>
+			 <li> fourth child</li>
+		 </ul>
+		 <h3>evenorodd</h3>
+		 <ul  class="evenorodd">
+		     <li> First child</li>
+			 <li> second child</li>
+			 <li> third child</li>
+			 <li> fourth child</li>
+		 </ul>
+		 <h3>marker</h3>
+		 <ul  class="marker">
+		     <li> First child</li>
+			 <li> second child</li>
+			 <li> third child</li>
+			 <li> fourth child</li>
+		 </ul>
+		 <h3>After</h3>
+		 <ul  class="after">
+		     <li> First child</li>
+			 <li> second child</li>
+			 <li> third child</li>
+			 <li> fourth child</li>
+		 </ul>
+		 <h3>Before</h3>
+		 <ul  class="before">
+		     <li> First child</li>
+			 <li> second child</li>
+			 <li> third child</li>
+			 <li> fourth child</li>
+		 </ul>
+		 <hr>
+		 <h3>first-letter</h3>
+		 <ul  class="first-letter">
+		     <li> First child</li>
+			 <li> second child</li>
+			 <li> third child</li>
+			 <li> fourth child</li>
+		 </ul>
+		 <h2>for the paragraphs</h2>
+		 <div class="firstl">
+		 <p>Web development is an important field in the modern digital world.</p>
+
+         <p>It involves creating and designing websites and web applications.</p>
+
+         <p>HTML is used to structure the content of a webpage.</p>
+
+         <p>CSS is used to style and improve the appearance of web pages.</p>
+
+         <p>JavaScript is used to add interactivity to websites.</p>
+		 </div>
+		 <hr>
+		 <div class="z">
+		 <p>Web development is an important field in the modern digital world.</p>
+
+         <p>It involves creating and designing websites and web applications.</p>
+
+         <p>HTML is used to structure the content of a webpage.</p>
+
+         <p>CSS is used to style and improve the appearance of web pages.</p>
+
+         <p>JavaScript is used to add interactivity to websites.</p>
+		 </div>
+		 <hr>
+		 <h2>First line:</h2>
+		 <p class="fl"> HTML is used to create the structure of web pages.
+             It uses tags to define elements like headings, paragraphs,
+             images, and links.</p>
+   </body>
+</html> 

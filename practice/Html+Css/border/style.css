@@ -1,0 +1,35 @@
+.b{
+	border:10px double blue;
+	height:200px;
+	width:200px;
+	border-left-style:solid;
+	border-bottom-style:dotted;
+	border-top-color:red;
+	font-size:30px;	
+	/*border-radius:50%;*/
+	border-radius:30px 0px;
+	
+	
+}
+.c{
+	border:30px solid green;
+	height:100px;
+	width:200px;
+	/*border-left-width:10px;
+	border-bottom-width:10px;*/
+	border-radius:50%;
+	border-image:url(border.jpg) 100 round;
+	display:flex;
+}
+p{
+	margin:40px;
+}
+.d{
+	border:2px solid green;
+	height:100px;
+	width:200px;
+	border-left-width:10px;
+	border-radius:30px 0px;
+	
+	
+}

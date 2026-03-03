@@ -1,0 +1,27 @@
+*{
+	color:orange;  	
+}
+.par{
+	color:red;
+}
+.chi{
+	color:green;
+}
+p{
+	color:blue;
+}
+#four{
+	color:brown;
+}
+.test{
+	color:gold;
+}
+div p{
+	color:pink;
+}
+/*div>p{
+	color:red;
+}*/
+#o{
+	color:black;
+}

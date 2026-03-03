@@ -1,0 +1,21 @@
+/*a:link{
+	color:red;
+}
+a:visited{
+	color:green;
+}
+a:active{
+	color:blue;
+}
+a:hover{
+	color:violet;
+}
+.h:link{
+	color:orange;
+}*/
+a[href^="http"]{
+	color:red;
+}
+a[href^="https"]{
+	color:blue;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Grid</title>
+		<link rel="stylesheet" href="style.css"/>
+    </head>
+	<body>
+	     <h1>We are introducing our css grid here</h1>
+		 <h3>Grid layout:</h3>
+		 <p>A grid is a 2-d layout system for web development.by this system content in rows and columns are 
+		    simultaneously controled with the help of grid properties</p>
+		 <h3>Grid terminology:</h3>
+		 <table border="1">
+		      <tr>
+			       <th>Term </th>
+				    <th>Meaning </th>
+			  </tr>
+			  <tr>
+			      <td>Grid Container</td>
+				  <td>That acts as a parent that established the grid context</td>
+			  </tr>
+			  <tr>
+			      <td>Grid lines</td>
+				  <td>Grid lines are the dividing lines that form the structure
+				  of the grid,number form1 upward(both rows and columns)</td>
+			  </tr>
+			  <tr>
+			      <td>Grid Track</td>
+				  <td>The space between two adjacent grid lines</td>
+			  </tr>
+			  <tr>
+			      <td>Grid cells</td>
+				  <td>the smallest unit in grid that are
+				  intersection of one row track and one column track.</td>
+			  </tr>
+			  <tr>
+			      <td>Grid Area</td>
+				  <td>Any rectagular space bounded by four grid lines or span of multiple</td>
+			  </tr>
+			  <tr>
+			      <td>fraction(fr)unit</td>
+				  <td>A flexible unit meaning 'fraction available space eg:2fr,1fr</td>
+			  </tr>
+		 </table>
+		 <h3> grid conainer poperties</h3>
+		 <p> Container properties are applied to the parent element (display:grid;) they define the structure ,sizing,alignmnet and spacing if the entire grid.</p>
+		 <h3>List of grid container properties</h3>
+		 <h4>Display:</h4>
+		 <table border="1">
+		      <tr>
+			       <th>value</th>
+				   <th> description</th>
+			  </tr>
+			  <tr>
+				     <td>grid</td>
+					 <td>Block-level grid container(takes fukk availablewidth)</td>				 
+			  </tr>
+			  <tr>
+				     <td>inline-grid</td>
+					 <td>inline-level grid container(sits inline like  a word)</td>				 
+			  </tr>
+			  <tr>
+			  </table>
+				     <h3>grid-templet-columns</h3>
+					 <p> defines the number of columns in the grid and their widths.
+					 each value sepated by the space creates one column.</p>
+					 <pre>
+                        <code>
+	                       grid -template-column:200px 200px 200px;/1fr 1fr 1fr;
+                        </code>
+					 </pre>
+		 <h3>Grid-templete-rows</h3>
+		<p> defines the number of columns in the grid and their widths.
+					 each value sepated by the space creates one column.</p>
+					 <pre>
+                        <code>
+	                       grid -template-row:200px 200px 200px;/1fr 1fr 1fr;
+                        </code>
+					 </pre>
+					 <h3>grid-templet-area</h3>
+					  <p>grid area is using a ASCII art-styles.each string representages 
+					  a row each word in the string name the cell for the positions.</p>
+					  <p>this is also called as "named layout"</p>
+					 <pre>
+                        <code>
+	                       grid -template-area:"header header header";
+						                       "aside main main"
+											   "footer footer footer"
+                        </code>
+					 </pre>
+		 <hr>
+		 <hr>
+		 <h1>Example:</h1>
+		 <div class="container">
+		       <p class="grid-item">Grid items 1</p>
+			   <p class="grid-item">Grid items 2</p>
+			   <p class="grid-item">Grid items 3</p>
+			   <p class="grid-item">Grid items 1</p>
+			   <p class="grid-item">Grid items 2</p>
+			   <p class="grid-item">Grid items 3</p>
+			   <p class="grid-item">Grid items 1</p>
+			   <p class="grid-item">Grid items 2</p>
+			   <p class="grid-item">Grid items 3</p>
+			   <p class="grid-item">Grid items 1</p>
+			   <p class="grid-item">Grid items 2</p>
+			   <p class="grid-item">Grid items 3</p>
+		 </div>
+	</body>
+</html>	

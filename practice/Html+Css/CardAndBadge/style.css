@@ -1,0 +1,36 @@
+.navbar{
+	position:static;
+	top:0;
+	background-color:black;
+	color:white;
+	padding:15px;
+	display:flex;
+	justify-content:center;
+	z-index:100;
+	border-radius:10px;
+}
+.cart-container{
+	position:relative;
+	font-size:18px;
+	top:30px;
+	left:70px;
+}
+.badge{
+	position:absolute;
+	top:-7px;
+	right:-15px;
+	background-color:red;
+	padding:2px 6px;
+	border-radius:50%;
+	font-size:12px;
+}
+.content{
+	height:1200px;
+	padding:20px;
+}
+p{
+	color:red;
+	/*position:fixed;
+	top:10px;
+	z-index:-100;*/
+}

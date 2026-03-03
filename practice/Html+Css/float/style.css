@@ -1,0 +1,27 @@
+.container{
+	border:1px solid black;
+	padding:10px;
+	margin:10px;
+	height:400px;
+	width:800px;
+	overflow:auto;
+}
+.heading{
+
+}
+img{
+	float:right;
+	height:250px;
+	width:250px;
+	padding:10px;
+	margin:5px;
+	border:2px solid green;
+	box-sizing:border-box;
+	/* border-radius:50%; */
+	
+}
+p{
+	padding:10px;
+	margin:2px;
+	border:2px solid green;
+}

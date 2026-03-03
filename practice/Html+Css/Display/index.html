@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="UTF-8"/>
+	     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+         <title>Display Property</title>
+	      <link rel="stylesheet" href="style.css"/>
+     </head>
+     <body>
+	    <div class="container">
+	        <h1>Display Property</h1>
+	        <p> This display property in css controle how an element is rendering or laid out in a page</p>
+	    </div>
+		<ul>
+		    <li>Whether element appears on the same line or new line.</li>
+			<li>Whether width ,height,margin and padding apply.</li>
+			<li>How element align and  interact with orther element.</li>
+		</ul>
+		<ul>
+		     common display values:
+		     <li>Block</li>
+			 <li>inline</li>
+			 <li>inline-block</li>
+			 <li>none</li>
+			 <li>flex</li>
+			 <li>grid</li>
+		</ul>
+		<code>Display:value;(block,flex,ect)</code>
+		<h3>What is display:block;?</h3>
+		<P> This property allows full width of this parent.starts on a new line</p>
+		<p>*Takes full width of the parent</p>
+        <p>*Starts on a new line</p>
+        <p>*You can set width, height, margin, padding</p>
+		<div class="blockElement">This is block element.</div>
+		<div class="blockElement">This is block element.</div>
+		<p class="blockElement">this is paragraph(block element)</p>
+		<h2 class="blockElement">this id header(block element)</h2>
+		<hr>
+		<h3>What is display:inline;?</h3>
+		<P> Based on the container it will occupies width.it utilize the white space.</p>
+		<p>*Takes only content width</p>
+		<p>*Stays in the same line</p>
+		<p>*Width & height do NOT work</p>
+		<p>*Vertical margin doesn’t work properly</p>
+		<div class="inlineElement">This is inline element.</div>
+		<div class="inlineElement">This is inline element.</div>
+		<p class="inlineElement">this is paragraph(inline element)</p>
+		<h2 class="inlineElement">this id header(inline element)</h2>
+		<span>This is also inline element.</span>
+		<hr>
+		<h3>What is display:inline-block;?</h3>
+		<P> content of the both block and inline properties will not depend on
+		the concept we may construct the width and height of the element.</p>
+		<P>* Based on the container it will occupies width.</p>
+		<p>*Stays in the same line</p>
+		<p>*You can set width, height, margin, padding</p>
+		<p>*Element is completely removed</p>
+		<p>*Takes no space</p>
+		<p>*Hidden from layout</p>
+		<div class="inlineblockElement">This is inlineblock element.</div>
+		<div class="inlineblockElement">This is inlineblock element.</div>
+		<p class="inlineblockElement">this is paragraph(inlineblock element)</p>
+		<h2 class="inlineblockElement">this id header(inlineblock element)</h2>
+		<span>span</span>
+		<span>span</span>
+		<span>span</span>
+		<hr>
+		<h3>What is display:none;?</h3>
+		<P>*content not visible</p>
+		<p>*Element is completely removed</p>
+		<p>*Takes no space</p>
+		<p>*Hidden from layout</p>
+		<div class="noneElement">This is none element.</div>
+		<div class="noneElement">This is none element.</div>
+		<p class="noneElement">this is paragraph(none element)</p>
+		<h2 class="noneElement">this id header(none element)</h2>
+		<hr>
+		<h3>What is display:flex;?</h3>
+		<P>*item may arrange in 1 dimention.,iit is a css layout model design 
+		to create a one dimention layoutit allows you to align,distibute and
+		resize element dynamically, event when their sizes are unknown for 
+		the best usage when you want to arrange items in a single direction 
+		with flesible spacing.</p>
+		<h5>flex container:</h5>
+		<p> A flex container  is the parent element in a flexbox layout,
+		when we apply disply:flex; to an elment ,it becomes a flex container,
+		and all its direction child or item becomes flex elements.</p>
+		<h5>Flex container controles:</h5>
+		<ul>
+		     <li>Direction of items</li>
+			 <li>Arrangement</li>
+			 <li>Spacing</li>
+			 <li>Wrapping behaviours</li>
+		</ul>
+		<h2>List of flex container properties:</h2>
+		<ol>
+		     <li>flex-direction:values;(ex:row,column,row-reverse,column-reverse)</li>
+			 <li>justify-content:values;(ex:end,center,start,space-between,space-evenly,left,right,space-around)</li>
+			 <ul>
+				<li>justify-content: space-between → first item at start,
+					 last item at end, equal space only between items.</li>
+					 <li>justify-content: space-around → equal space around items,
+						 but edges get half the space of the gaps.</li>
+						 <li>justify-content: space-evenly → equal space
+							 between items and at both edges.</li>
+			 </ul>
+			 <li>align-item</li>
+			     <ul>
+					<li>align-items: flex-start → items align to the top/start of the cross-axis.</li>
+					<li>align-items: flex-end → items align to the bottom/end of the cross-axis.</li>
+					<li>align-items: center → items align at the center of the cross-axis.</li>
+					<li>align-items: stretch → items stretch to fill the cross-axis (default).</li>
+					<li>align-items: baseline → items align based on their text baseline.</li>
+				 </ul>
+			 <li>flex-wrap</li>
+			     <ul>
+					<li>flex-wrap: nowrap → all items stay in one line (may overflow).</li>
+					<li>flex-wrap: wrap → items move to next line when space is not enough.</li>
+					<li>flex-wrap: wrap-reverse → items wrap to next line in the reverse cross-axis direction.</li>
+				 </ul>
+			 <li>gap</li>
+			 <ul>
+				<li>gap: 20px → sets equal space between rows and columns.</li>
+				<li>gap: 10px 30px → 10px row gap, 30px column gap</li>
+				<li>row-gap: 15px → space only between rows.</li>
+				<li>column-gap: 25px → space only between columns.</li>
+			 </ul>
+			 <p>upto here this all are in the parent values</p>
+			 <h3>from hear these are the child properties:</h3>
+			 <li>Flex-items:</li>
+			 <p>Flex items are the direct hcild elemnents of a flex container. these item propertis are applied to individul child elements to control how items grow shrink,aligns and orders itsefl inside the flex container.</p>
+		</ol>
+		     <h3>List of flex item Properties:</h3>
+			 <ol>
+			      <li>Order</li>
+				  <li>Flex-grow</li>
+				  <li>flex-shrink</li>
+				  <li>flex-basis</li>
+				  <li>align-self</li>
+				  <li>flex(shorthand)</li>
+			 </ol>
+			 <h3>1.Order:</h3>
+			 <dl>
+			     <dd>
+				 <p>Change the visual order of a item without changeing the html structure.</p>
+				  </dd>
+			 </dl>
+				 <pre>
+				 <b>Syntax:</b>
+				 <code>
+				    .item1{
+					 order:2;
+					 }
+					.item2{
+				     order:1
+				     }
+				 </code>
+				 </pre>
+				 <ul>
+				     <li>Default value of order is "0"</li>
+				 </ul>
+				
+				 <h3>2.Flex-grow:</h3>
+				 <dl>
+				   <dd>controles how much a flex item grows relative to other when extra space is available.</dd>
+		         </dl>
+				  <pre>
+				 <b>Syntax:</b>
+				 <code>
+				    .item1{
+					 flex-grow:2;
+					 }
+					.item2{
+				     flex-grow:1
+				     }
+				 </code>
+				 </pre>
+				 <ul>
+				     <li>Default value of flex-grow is "0"(does not grow)</li>
+				 </ul>
+				 <h3>3.Flex-shrink:</h3>
+				 <dl>
+				   <dd>controles how much a flex item shrinks when the space is limited. relative to other when extra space is available.</dd>
+		         </dl>
+				  <pre>
+				 <b>Syntax:</b>
+				 <code>
+				    .item1{
+					 flex-shrink:2;
+					 }
+					.item2{
+				     flex-shrink:10%;
+				     }
+				 </code>
+				 </pre>
+				 <ul>
+				     <li>Default value of flex-shrink is "0"(prevents shrink)</li>
+				 </ul>
+				 <h3>4.Flex-basis:</h3>
+				 <dl>
+				   <dd>Specifies the initial desize of the flex item before space distribution.</dd>
+		         </dl>
+				  <pre>
+				 <b>Syntax:</b>
+				 <code>
+				    .item1{
+					 flex-basis:200px;
+					 }
+					.item2{
+				     flex-basis:100px;
+				     }
+				 </code>
+				 </pre>
+				 <ul>
+				     <li>canbe in px,%,em or rem.</li>
+					 <li>the default value is is auto.</li>
+				 </ul>
+				 <h3>5.align-self:</h3>
+				 <dl>
+				   <dd>Overrides the container's align-items property for individual items along the cross axis.</dd>
+		         </dl>
+				  <pre>
+				 <b>Syntax:</b>
+				 <code>
+				    .item1{
+					 aline-self:flex-end/flex-start/center/auto/stretch/baseline and so on;
+					 }
+					.item2{
+				     flex-shrink:10%;
+				     }
+				 </code>
+				 </pre>
+				 <table border=3px;>
+				 <tr>
+				    <th>values</th>
+				    <th>Description</th>
+				 </tr>
+				 <tr>
+				     <td>auto</td>
+					 <td>Default(follows container)</td>
+				 </tr>
+				 <tr>
+				     <td>flex-start</td>
+					 <td>start of the cross axis</td>
+				 </tr>
+				 <tr>
+				     <td>flex-end</td>
+					 <td>end of the cross axis</td>
+				 </tr>
+				 <tr>
+				     <td>center</td>
+					 <td>center of the cross axis</td>
+				 </tr>
+				 <tr>
+				     <td>stretch</td>
+					 <td>stretch to full</td>
+				 </tr>
+				 <tr>
+				     <td>baseline</td>
+					 <td> align based on the text bese line</td>
+				 </tr>
+				 </table>
+				 <ul>
+				     <li>Default value of flex-shrink is "0"(prevents shrink)</li>
+				 </ul>
+		<P>*Children align easily</p>
+		<p>*Used for modern layouts</p>
+		<p>*Turns element into a flex container (for 1D layout: row or column).</p>
+		<h4>Syntax:</h4>
+		<code>display:flex;</code>
+		<h2>Example:</h2>
+		<div class="flexElement">
+		<div class="b1">1</div>
+		<div class="b1">2</div>
+		<div class="b1">3</div>
+		<div class="b1">4</div>
+		</div>
+		<dt>Justify-content</dt>
+		    <dd>aligns items alone the main axis</dd>
+		<div class="flexjustify">
+		<div class="b2">1</div>
+		<div class="b2">2</div>
+		<div class="b2">3</div>
+		<div class="b2">4</div>
+		</div>	
+		<hr>
+		<h3>What is display:grid;?</h3>
+		<P>*item may arrange in 2 dimention.</p>
+		<p>*Turns element into a grid container (2D layout: rows + columns).</P>
+		<hr>
+		<h3>Visibility:hidden;</h3>
+		<p>is it visible</P>
+		<p class="hidden"> hello, have a good day!</p>
+		<p>no,but space was there</p>
+	 </body>
+</html>	 
+	 

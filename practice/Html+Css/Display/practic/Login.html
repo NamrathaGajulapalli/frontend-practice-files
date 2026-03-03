@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Login Page</title>
+        <style>
+		     .container{
+			       display:flex;
+				   justify-content:center;
+				   align-items:center;
+				   height:100vh;	
+				  
+			 }
+			 .login{
+			     padding:40px;
+				 background:lightgray;/*radial-gradient(circle,white,gray,red)*/;
+				 display:flex;
+				 flex-direction:column;
+				 gap:10px;
+				 border-radius:10px;
+			 }
+			 input{
+			      outline:none;
+				  border:none;
+				  border-radius:5px;
+			 }
+			 input:focus {
+			       border:1px solid blue;
+			 }
+			 h4{
+				background: radial-gradient(circle, violet, blue, green);
+				-webkit-background-clip:text;
+				background-clip:text;
+				color:transparent;
+				display:inline-block;
+				text-align:center;
+				 
+			 }
+			 button{
+			     background-color:red;
+				 color:white;
+				 padding:7px;
+				 border-radius:10px;
+				 outline:none;
+				  border:none;
+			 }
+			 button:hover{
+			      background-color:green;
+				  
+			 }
+		</style>
+	<body>
+	       <div class="container">
+		         <form class="login">
+				       <h4>Instragram Login</h4>
+					   <label for="username">User Id:</label>
+					   <input type="text" name="username" id="username" required />
+					   <label for="Password">Password</label>
+					   <input type="Password" name="Password" id="Password" required />
+					   <button type="submit">Login</button>
+				 </form>
+		   </div>
+	</body>
+</html>		

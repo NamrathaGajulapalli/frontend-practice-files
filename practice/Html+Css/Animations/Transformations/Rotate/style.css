@@ -1,0 +1,15 @@
+.container{
+	width:200px;
+	height:200px;
+	background-color:skyblue;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:100px 100px;
+	transform:rotateZ(45deg);
+	border:3px solid black;
+	border-left-style:solid;
+	border-right-color:brown;
+	border-bottom-style:dotted;
+	border-top-color:red;
+}

@@ -1,0 +1,19 @@
+input:focus{
+	outline-color:blue;
+	padding:5px;
+}
+.b1:hover{
+	background-color:green;
+	color:white;
+	border-style:red;
+}
+.r1:hover{
+	accent-color:green;
+}
+
+/*input[type="submit"]{
+	background-color:blue;
+}*/
+/*.f{
+	background-color:pink;
+}*/

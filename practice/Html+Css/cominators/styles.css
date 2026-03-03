@@ -1,0 +1,39 @@
+ li{
+	color:blue;
+}
+.secondcontainer p{
+	color:red;
+}
+.secondcontainer>p{
+	color:green;
+}
+
+
+
+.grand p{
+	color:orange;
+}
+.grand>h4{
+	color:red;
+}
+.grand+p{
+	color:blue;
+}
+/*.dad1 p{
+	color:chocolate;
+}*/
+.dad1>p{
+	color:brown;
+}
+.dad2{
+	color:violet;
+}
+.grand h2{
+	color:green;
+}
+/*.grand>h2{
+	color:gray;
+}*/
+.grand+h2{
+	color:gray;
+}

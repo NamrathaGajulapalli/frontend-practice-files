@@ -1,0 +1,41 @@
+.container{
+	border:2px solid black;
+	height:220px;
+	width:450px;
+	background-color:#facc63;
+}
+.c1{
+	border:2px solid orange;
+	height:200px;
+	width:200px;
+	background-color:#aaa111;
+	float:left;
+	margin:10px;
+	text-align:center;
+	
+}
+h1{
+	padding:50px;
+}
+.c2{
+	border:2px solid red;
+	height:200px;
+	width:200px;
+	background-color:#bbb111;
+	background-image:url(snack1.jpg);
+	/*background-image:url(snack1.jpg),url(snack2.webp);*/
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:right;
+	margin:10px;
+	/*background-position:left,right;*/
+	background-position:center;
+	/*background-attachment:fixed;*/
+	color:white;
+	overflow:auto;
+	
+	
+}
+h1{
+	color:white;
+}

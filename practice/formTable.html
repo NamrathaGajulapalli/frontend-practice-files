@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+      <head>
+	         <title> Form and Table</title>
+			 <style>
+			   td input,
+			   td textarea{
+			   width:100%;
+			   box-sizing:border-box;
+			   }
+			 </style>
+	  </head>
+	  <body>
+	        <center><form>
+			     <table border="1"  cellpadding="10" style="border-collapse:collapse;">
+				 <tr>
+				 <th>Name:</th>
+				 <td><input type="text" name="name" /></td>
+				 </tr>
+				 <tr>
+				 <th>Surname:</th>
+				 <td><input type="text"name="surname" /></td>
+				 </tr>
+				 <tr>
+				 <th>DOB:</th>
+				 <td><input type="date"name="date of birth" /></td>
+				 </tr>
+				 <tr>
+				 <th>Address:</th>
+				 <td><textarea rows="4" col="10" name="Address" ></textarea></td>
+				 </tr>
+				 <tr>
+				 <th>Gender:</th>
+				 <td>
+				     <table border="1"  style="border-collapse:collapse;width:100%">
+					        <tr>
+							    <th>Male</th>
+								<td><input type="radio" value="Male" name="gender" ></td>
+								<th>Female</th>
+								<td><input type="radio" value="Female" name="gender"></td>
+							</tr>
+					 </table>
+				 </td>
+				 </tr>
+				  <tr>
+				   <th>Language:</th>
+				    <td>
+				     <table border="1" style="border-collapse:collapse;width:100% ">
+					        <tr>
+							    <th>English</th>
+								<td><input type="checkbox" value="English" name="Language" ></td>
+								<th>Telugu</th>
+								<td><input type="checkbox" value="Telugu" name="Language" ></td>
+							</tr>
+					 </table>
+				    </td>
+				  </tr>
+				 <tr>
+				   <th>Time:</th>
+				    <td><input type="time" name="time"/></td>
+				 </tr>
+				 <tr>
+				   <th>Month:</th>
+				    <td><input type="month" name="Month" /></td>
+				 </tr>
+				 <tr>
+				   <th>Week:</th>
+				    <td><input type="Week" name="week" /></td>
+				 </tr>
+				 <tr>
+				   <th>datetime-local:</th>
+				    <td><input type="datetime-local" name="datetime-local" /></td>
+					</tr>
+			      <tr>
+				   <th>file:</th>
+				    <td><input type="file" name="file" style="width:100%"/></td>
+				  </tr>	
+                  <tr>
+				   <th>Range:</th>
+				    <td><input type="range" name="range" max-length="5" style="width:100%"/></td>
+				 </tr>
+				 <tr>
+				   <th>URL:</th>
+				    <td><input type="url" name="url" style="width:100%"/></td>
+				 </tr>
+				 
+			     </table>
+			</form></center>
+	  </body>
+</html>

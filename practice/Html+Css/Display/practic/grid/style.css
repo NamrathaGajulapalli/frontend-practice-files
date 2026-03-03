@@ -1,0 +1,23 @@
+body{
+	height:200px;
+}
+.container{
+	display:grid;
+	padding:10px;
+	border:2px solid black;
+	gap:10px;
+	/*grid-template-columns:200px 200px 200px;*/
+	/*grid-template-columns:1fr 2fr 3fr;*/
+	/*grid-template-columns:repeat(3,2fr);*/
+	/*grid-template-columns:autofill;*/
+	/*grid-template-rows:150px 150px 150px;*/
+	/*grid-template-rows:1fr 2fr 3fr;*/
+	/*grid-template-rows:repeat(5,1fr);*/
+	grid-template-rows: 250px 200px 100px 50px ;/*width*/
+	grid-template-columns:4fr 3fr 2fr 1fr;/*height*/
+	
+}
+.grid-item{
+	background-color:antiquewhite;
+	padding:10px;
+}

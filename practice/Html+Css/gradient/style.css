@@ -1,0 +1,84 @@
+.box1{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:linear-gradient( to left,red,green,blue)
+}
+.box2{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:linear-gradient( to right,red,green,blue)
+}
+.box3{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:linear-gradient( to top,red,green,blue)
+}
+.box4{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:linear-gradient( to bottom,red,green,blue)
+}
+.box5{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:linear-gradient(45deg,red,green,blue)
+}
+.r1{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:radial-gradient(circle,violet,blue,green,orange,red)
+}
+.r2{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:radial-gradient(ellipse,violet,blue,green,orange,red)
+}
+.r3{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:radial-gradient(ellipse at top,violet,blue,green,orange,red)
+}
+.r4{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:radial-gradient(circle at top,violet,blue,green,orange,red)
+}
+.r5{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:radial-gradient(circle at bottom,violet,blue,green,orange,red)
+}
+.r6{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:radial-gradient(circle at right,violet,blue,green,orange,red)
+}
+.r7{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:radial-gradient(circle at left,violet,blue,green,orange,red)
+}
+.c1{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:conic-gradient(violet,blue,green,orange,red)
+}
+.c2{
+	border:2px solid black;
+	height:200px;
+	width:200px;
+	background:conic-gradient(from 220deg,violet,blue,green,orange,red)
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>tcs registration form</title>
+     </head>
+	 <body style="background-color:aliceblue;">
+	       <center style="color:white; background-color:blue;padding:1px;"><h1>TCS Registration Portal</h1>
+		           <h4>Begin Your Career with TCS</h4>
+		   </center>
+	
+		   <form>
+		       <fieldset>
+				<legend style="color:blue; font-size:150%">Personal Details</legend>
+				<label>Full Name:</label><br>
+				<input  type="text" name="fullName" placeholder="enter your fullname" id="fullName" style="width:98%; padding:8px; "/>
+				<br>
+				<label>Father Name:</label><br>
+				<input  type="text" name="fatherName" placeholder="enter your fathername" id="fatherName" style="width:98%; padding:8px; "/>
+				<br>
+				<label>Email:</label><br>
+				<input  type="Email" name="email" placeholder="enter your  current email" id="email" style="width:98%; padding:8px; "/>
+				<br>
+				<label>Mobile Number:</label><br>
+				<input  type="Number" name="MobileNumber" placeholder="enter your 10 digits mobile number" id="MobileNumber" style="width:98%; padding:8px; "/>
+				<br>
+				<br>
+				<label>DOB:</label>
+				<br>
+				<input type="date"  name="DOB" style=" padding:8px; " />
+				<br>
+				<br>
+				<label>Gender:</label>
+				<input type="radio" name="gender" value="Male"/>Male
+				<input type="radio" name="gender" value="Female"/>Female
+				<input type="radio" name="gender" value="Other"/>Other
+			   </fieldset>
+			   <fieldset>
+				    <legend style="color:blue; font-size:150%">Academic Details</legend> 
+                    <label for="higherQualification">Highest Qualification:</label>
+					<br>
+					     <select id="higherQualification" name="higherQualification" style="width:50%; padding:8px;">
+							<option>select</option>
+						    <option value="10th">10<sup>th</sup></option>
+						    <option value="Intermediate">Intermediate</option>
+						    <option value="Graduation">Graduation</option>
+						    <option value="PostGraduation">PostGraduation</option>
+							<option value="Phd">Phd</option>
+							
+						 </select>
+						 <br>
+						 <br>
+						 <label>10<sup>th</sup> Marks: <input type="Number"  name="10th Marks" style="width:26.5%;padding:8px;"/>
+				         <label>passed out year:</label>
+				         <input type="date" name="passed out year"  style="padding:8px;"/></label>
+						 <br>
+						 <br>
+						 <label>Intermediate Marks: <input type="Number" name="Intermediate Marks" style="width:22%;padding:8px;"/>
+				         <label>passed out year:</label>
+				         <input type="date" name="passed out year" style="padding:8px;"/></label>
+						 <br>
+						 <br>
+						 <label>graduation Marks: <input type="Number"  name="graduation Marks" style="width:23%;padding:8px;"/>
+						 <label>passed out year:</label>
+						 <input  type="date" name="passed out year"style="padding:8px;"/>
+						 <br>
+						 <br>
+						 <label>upload resume:<input type="file"/></label>
+						 </fieldset>
+						 <center><fieldset style="padding:20px; width:50%; ">
+						 <legend style="color:blue; font-size:150%">Account Setup</legend>
+						 <label>Password:</label><br>
+				         <input  type="text" name="Password" placeholder="enter a strong password using num,char,spec"  style="width:50%;padding:8px;" />
+				         <br>
+				         <label>Confirm Password:</label><br>
+				         <input  type="text" name="Confirm Password"   style="width:50%;padding:8px;"/>
+				         <br>
+						 <br>
+						 <input type="checkbox"/><label>I agree to <u>Terms & Conditions<u></label>
+						 <br>
+						 <br>
+						 <input type="submit" value="Register Now" style="color:white;background-color:orange; width:30%;padding:8px;"/>
+						 <br>
+						 <br>
+						 <input type="reset" style="color:white;background-color:red;"/>
+						 </fieldset></center>
+					
+  					   
+				</fieldset>
+		   </form>
+	 
+	 </body>
+</html>
